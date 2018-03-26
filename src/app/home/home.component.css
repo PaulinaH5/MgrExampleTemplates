@@ -1,0 +1,42 @@
+.home-section {
+    background-color: #1D809F ;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+.text-secondary {
+    color: #ecb807 !important;
+  }
+  
+.text-first{
+  font-size: 3rem;
+}
+
+h2, h3, h4, h5{
+  font-weight: 700;
+}
+
+.service-icon {
+  background-color: #fff;
+  color: #1D809F;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: white;
+  transition: all 0.2s;
+}
+
+a:focus, a:hover {
+  color:#212529;
+} 
