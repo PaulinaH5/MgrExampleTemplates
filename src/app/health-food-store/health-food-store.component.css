@@ -1,0 +1,128 @@
+.health-food-store {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    text-align: center;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+	.d-in-block{
+    display: inline-block;
+  }
+.container_12 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+  }
+.grid_4 .grid_8 .grid_12 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+.container_12 .grid_12 {
+    width: 940px;
+  }
+.container_12 .grid_8 {
+    width: 620px;
+  }
+.container_12 .grid_4 {
+    width: 300px;
+}
+  h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-family: 'Glegoo', serif;
+	color: #aba8a8;
+}
+h3 {
+	font-size: 30px;
+	line-height: 30px;
+	padding-top: 78px;
+	margin-bottom: 44px;
+}
+.page1 h3 {
+	padding-top: 0;
+	margin-bottom: 15px;
+}
+.img_inner {
+	max-width: 100%;
+	 -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -o-box-sizing: border-box;
+ box-sizing: border-box;
+	margin-bottom: 19px;
+ position: relative;
+}
+.fleft {
+	float: left;
+	margin-right: 21px;
+	margin-top: 3px;	
+	margin-bottom: 0px;
+}
+.extra_wrapper {
+	overflow: hidden;
+}
+.page1 .fleft {
+	border: 1px solid #d4d2d2;
+	margin-top: 4px;
+	margin-right: 22px;
+}
+.alpha {
+    margin-left: 0;
+  }
+.omega {
+    margin-right: 0;
+}
+.banner {
+	background: url(banner_icon1.png) right 27px no-repeat;
+	margin-top: 76px;
+	border: 1px solid #d2d0d0;
+	padding: 49px 34px 40px;
+	margin-bottom: 77px;
+}
+.banner.b1 {
+	background-image: url(banner_icon2.png);
+	background-position: right 39px;
+}
+.banner h3 {
+	line-height: 36px;
+}
+.banner.b1 {
+	background-image: url(banner_icon2.png);
+	background-position: right 39px;
+}
+
+/* MENU */
+.menu_block  {
+	position: relative;
+	padding-top: 26px;
+	padding-left: 57px;
+}
+
+.sf-menu>li>a{
+	font-size: 20px;
+	font-family: 'Glegoo', serif;
+	color: #d3cfcf;
+	position: relative;
+	line-height: 20px;
+	z-index: 999;
+	position: relative;
+}
+.sf-menu>li+li:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 1px;
+	height: 44px;
+	background-color: #efeef1;
+	left: -39px;
+	top: -16px;
+}
+.sf-menu li {
+	float:left;
+	position:relative; 
+	list-style-type: none;
+}
+.sf-menu>li+li {
+	margin-left: 70px;
+}
+/* moje */
+.welcome{
+text-align: justify;
+}
