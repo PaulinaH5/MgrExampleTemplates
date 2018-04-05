@@ -26,7 +26,7 @@ const routes: Routes = [
   { path: 'library',  component: LibraryComponent },
   { path: 'bank',  component: BankComponent },
   { path: 'health-food-store',  component: HealthFoodStoreComponent },
-  { path: 'pharmacy',  component: LibraryComponent },
+  { path: 'pharmacy',  component: PharmacyComponent },
 ];
 
 @NgModule({
