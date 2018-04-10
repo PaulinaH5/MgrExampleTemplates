@@ -1,0 +1,27 @@
+ body {
+    padding-top: 54px;
+  }
+  
+  @media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
+  }
+  
+  .card {
+    height: 100%;
+  }
+  .dis-bl{
+      display: inline-block;
+  }
+.pad0{
+  padding: 0px;
+}
+  .bankSide{
+    position: relative;
+    top:80px;
+  }
+  .jtron{
+    border: solid 1px gray;
+    padding:1rem;
+  }
