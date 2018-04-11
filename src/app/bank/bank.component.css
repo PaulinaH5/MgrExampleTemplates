@@ -8,6 +8,15 @@
     }
   }
   
+.litleInput{
+  height:25px;
+  width: 40px;
+  margin: 0px 5px;
+}
+.money{
+  width: 100px;
+}
+
   .card {
     height: 100%;
   }
