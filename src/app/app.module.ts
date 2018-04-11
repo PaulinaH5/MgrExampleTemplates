@@ -21,8 +21,8 @@ import { UniversityComponent } from './university/university.component';
 
 const routes: Routes = [
   // Fallback when no prior route is matched
-  { path: 'home',  component: HomeComponent },
-  { path: 'university',  component: HomeComponent },
+  { path: '',  component: HomeComponent },
+  { path: 'university',  component: UniversityComponent },
   { path: 'library',  component: LibraryComponent },
   { path: 'bank',  component: BankComponent },
   { path: 'health-food-store',  component: HealthFoodStoreComponent },
