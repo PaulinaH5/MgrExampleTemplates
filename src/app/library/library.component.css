@@ -1,0 +1,65 @@
+body {
+    padding-top: 54px;
+  }
+  
+  @media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
+  }
+  
+  .bg-image-full {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+  
+
+ .banner{
+    background-image: url('books.jpg');
+    height: 250px;
+ } 
+  .nav-link{
+    margin: 0px 20px ;
+  }
+.students{
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+}
+#navbarResponsive{
+    justify-content: center;
+}
+
+.d-in-block{
+    display: inline-block;
+  }
+
+.cat-list{
+    height: 310px;
+    
+}
+.circles{
+    justify-content: center;
+    margin-top:30px;
+   
+}
+.info{
+   position: relative;
+   top:260px;
+}
+
+.cat-list a{
+    color:black;
+    margin-left: 20px;
+}
+
+h5 a{
+    color:red;
+}
+
+footer a{
+    color:yellow;
+}
