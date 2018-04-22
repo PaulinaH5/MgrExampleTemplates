@@ -70,22 +70,18 @@ h3 {
     margin-right: 0;
 }
 .banner {
-	background: url(banner_icon1.png) right 27px no-repeat;
+	background: url(app/images/banner_icon1.png) right 27px no-repeat;
 	margin-top: 76px;
 	border: 1px solid #d2d0d0;
 	padding: 49px 34px 40px;
 	margin-bottom: 77px;
 }
 .banner.b1 {
-	background-image: url(banner_icon2.png);
+	background-image: url(app/images/banner_icon2.png);
 	background-position: right 39px;
 }
 .banner h3 {
 	line-height: 36px;
-}
-.banner.b1 {
-	background-image: url(banner_icon2.png);
-	background-position: right 39px;
 }
 
 /* MENU */
