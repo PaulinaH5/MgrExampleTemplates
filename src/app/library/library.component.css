@@ -63,3 +63,24 @@ h5 a{
 footer a{
     color:yellow;
 }
+
+.wariant{
+	position: fixed;
+	top:200px;
+	z-index: 200;
+	width:100px;
+	padding:15px;
+	border: 2px solid black;
+	color:white;
+}
+
+.jus-con{
+	justify-content: center;
+ 
+}
+.choose{
+	margin: 0px 10px;
+}
+.chooseL{
+	margin: 0px 11px;
+}
