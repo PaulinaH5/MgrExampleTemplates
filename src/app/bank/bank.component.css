@@ -55,3 +55,30 @@
     margin: 0px 11px;
   }
   
+  /* Option B */
+
+  .optionB nav{
+    background-color: white!important;
+  }
+  .optionB nav a{
+    color: red!important;
+  }
+  .optionB .jtron{
+    color: red!important;
+    background-color: gray;
+  }
+  .optionB{
+    background-color: tomato;
+  }
+  .optionB .card-footer{
+    background-color: royalblue;
+  }
+  .optionB .card-body{
+    background-color: hotpink;
+  }
+  .optionB input{
+    background-color: khaki;
+  }
+  .optionB h4{
+    color: peru;
+  }

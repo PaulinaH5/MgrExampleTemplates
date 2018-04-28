@@ -53,3 +53,32 @@ body {
 .chooseL{
   margin: 0px 11px;
 }
+
+.optionB nav{
+  background-color: white!important;
+}
+.optionB nav a{
+  color: red!important;
+}
+.optionB .jtron{
+  color: red!important;
+  background-color: gray;
+}
+.optionB{
+  background-color: tomato;
+}
+.optionB .card-footer{
+  background-color: royalblue;
+}
+.optionB .card-body{
+  background-color: hotpink;
+}
+.optionB .card-text{
+  color:palegreen;
+}
+.optionB input{
+  background-color: khaki;
+}
+.optionB h4{
+  color: peru;
+}

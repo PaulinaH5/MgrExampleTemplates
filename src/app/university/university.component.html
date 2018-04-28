@@ -1,4 +1,4 @@
-<!-- Navigation -->
+<div [ngClass]="GetOption()">
 
 
 <!-- Header - set the background image for the header in the line below -->
@@ -10,7 +10,7 @@
   <div class="wariant btn-primary">
     <h6>Wariant:</h6>
     <div class="jus-con">
-      <span class="chooseL">A</span><input type="radio" name="radioBtn" class="choose" (click)="ColorOption(1)" /><br>
+      <span class="chooseL">A</span><input type="radio" name="radioBtn" class="choose" (click)="ColorOption(1)" checked="checked" /><br>
       <span class="chooseL">B</span><input type="radio" name="radioBtn" class="choose" (click)="ColorOption(2)" /><br>
       <span class="chooseL">C</span><input type="radio" name="radioBtn" class="choose" (click)="ColorOption(3)" />
       </div>
@@ -119,3 +119,4 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
   </div>
 </section>
+</div>
