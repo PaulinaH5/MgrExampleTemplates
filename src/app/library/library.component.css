@@ -1,29 +1,25 @@
 body {
     padding-top: 54px;
-  }
-  
-  @media (min-width: 992px) {
+}
+@media (min-width: 992px) {
     body {
       padding-top: 56px;
     }
-  }
-  
-  .bg-image-full {
+}
+.bg-image-full {
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-  }
-  
-
- .banner{
+}
+.banner{
     background-image: url('app/images/books.jpg');
     height: 250px;
  } 
-  .nav-link{
+.nav-link{
     margin: 0px 20px ;
-  }
+}
 .students{
   width: 50%;
   height: 50%;
@@ -32,51 +28,37 @@ body {
 #navbarResponsive{
     justify-content: center;
 }
-
 .d-in-block{
     display: inline-block;
   }
-
 .cat-list{
-    height: 310px;
-    
+    height: 310px;   
 }
 .circles{
     justify-content: center;
-    margin-top:30px;
-   
+    margin-top:30px; 
 }
 .info{
    position: relative;
    top:260px;
 }
-
 .cat-list a{
     color:black;
     margin-left: 20px;
 }
-
 h5 a{
     color:red;
 }
-
-footer a{
-    color:yellow;
-}
-
 .wariant{
 	position: fixed;
 	top:200px;
 	z-index: 200;
-	width:100px;
 	padding:15px;
 	border: 2px solid black;
 	color:white;
 }
-
 .jus-con{
 	justify-content: center;
- 
 }
 .choose{
 	margin: 0px 10px;
@@ -85,30 +67,84 @@ footer a{
 	margin: 0px 11px;
 }
 
-  /* Option B */
+  /* Option A */
+.optionA{
+  background-color: #FFFDED !important;
+}
+.optionA nav{
+  background-color: #9C472E!important;
+  border:1px solid  black!important ;
+}
+.optionA nav a{
+  color: white!important;
+}
+.optionA .bg-secondary{
+  background-color: #003896!important;
+}
+.optionA .btn-primary{
+  background-color: #003896!important;
+  border-color:#003896;
+}
+.optionA .card-footer, .card-header{
+  background-color:#EFEFEF!important;
+}
+.optionA .sidemenu, .card-body, .cat-list
+{
+  background-color: white!important; 
+}
+.optionA h4{
+  color: white!important; 
+}
+.optionA footer a{
+  color:#E7E7E7;
+}
+.optionA .circles a{
+  color: black!important
+}
 
-  .optionB nav{
-    background-color: white!important;
+/* Option B */
+.optionB{
+  background-color: #F5F5F5 !important;
+  color: black!important
+}
+.optionB nav{
+  background-color:gray !important;
+}
+.optionB h2{
+  color:gray;
+}
+.optionB h1{
+  color: gray;
+}
+.optionB input{
+  background-color:#EAB363!important;
+}
+.optionB .card-footer{
+background-color:#EAB363!important;
+}
+.optionB .circles a{
+  color: red!important
+}
+
+/* Option C */
+.optionC{
+  background-color: #7AD1FC !important;
+  color: black!important
+}
+.optionC nav{
+  background-color: red!important;
+}
+.optionC .nav-link{
+  color: yellow!important;
+}
+
+.optionC .circles a{
+  color: yellow!important
+}
+.optionC .card-footer{
+  background-color:yellow!important;
   }
-  .optionB nav a{
-    color: red!important;
-  }
-  .optionB .jtron{
-    color: red!important;
-    background-color: gray;
-  }
-  .optionB{
-    background-color: tomato;
-  }
-  .optionB .card-footer{
-    background-color: royalblue;
-  }
-  .optionB .card-body{
-    background-color: hotpink;
-  }
-  .optionB input{
-    background-color: khaki;
-  }
-  .optionB h4{
-    color: peru;
-  }
+
+.optionC footer a{
+  color:yellow;
+}

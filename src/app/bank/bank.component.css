@@ -55,30 +55,74 @@
     margin: 0px 11px;
   }
   
-  /* Option B */
+ /* Option A */
+.optionA{
+  background-color: #FAFAFA !important;
+}
+.optionA nav{
+  background-color: #003896!important;
+}
+.optionA nav a{
+  color: #D6D6D6!important;
+}
+.optionA .bg-secondary{
+  background-color: #003896!important;
+}
+.optionA .btn-primary{
+  background-color: #003896!important;
+  border-color:#003896;
+}
+.optionA .jtron{
+  background-color: white!important;
+}
+.optionA h1{
+  color:#003896;
+}
+.optionA h2{
+  color:#003896;
+}
 
-  .optionB nav{
-    background-color: white!important;
+/* Option B */
+.optionB{
+  background-color: #F5F5F5 !important;
+  color: black!important
+}
+.optionB nav{
+  background-color: #6F3A2A!important;
+}
+.optionB .bg-secondary{
+  background-color: #6F3A2A!important;
+}
+.optionB h2{
+  color:black;
+}
+.optionB h1{
+  color: gray;
+}
+.optionB input{
+  background-color:#F5F5F5!important;
+}
+.optionB .card-footer{
+background-color:yellow!important;
+}
+
+/* Option C */
+.optionC{
+  background-color: #FFF295 !important;
+  color: black!important
+}
+.optionC nav{
+  background-color: #FF3030!important;
+}
+.optionC .bg-secondary{
+  background-color: #FF3030!important;
+}
+.optionC .bg-secondary p{
+  color: black!important;
+}
+.optionC .card-footer{
+  background-color:tomato!important;
   }
-  .optionB nav a{
-    color: red!important;
-  }
-  .optionB .jtron{
-    color: red!important;
-    background-color: gray;
-  }
-  .optionB{
-    background-color: tomato;
-  }
-  .optionB .card-footer{
-    background-color: royalblue;
-  }
-  .optionB .card-body{
-    background-color: hotpink;
-  }
-  .optionB input{
-    background-color: khaki;
-  }
-  .optionB h4{
-    color: peru;
-  }
+.optionC input{
+  background-color:#F5F5F5!important;
+}

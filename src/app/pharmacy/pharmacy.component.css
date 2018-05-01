@@ -15,7 +15,7 @@
   }
   .pharma{
     position: relative;
-    top:82px;
+    top:60px;
   }
   .wariant{
     position: fixed;
@@ -38,30 +38,99 @@
     margin: 0px 11px;
   }
 
-    /* Option B */
+ /* Option A */
+ .optionA{
+  background-color: white !important;
+  color: #575757;
+}
+.optionA nav{
+  background-color: #7CC3FA!important;
+}
+.optionA nav a{
+  color: white!important;
+  font-weight: bold;
+}
+.optionA .list-unstyled a{
+  color:black;
+}
+.optionA h5{
+  background-color:#FFD516;
+}
+.optionA .btn-primary{
+  background-color: #7CC3FA!important;
+  border-color:#7CC3FA;
+}
+.optionA h1{
+  color:#168EFF;
+}
 
-    .optionB nav{
-      background-color: white!important;
-    }
-    .optionB nav a{
-      color: red!important;
-    }
-    .optionB .jtron{
-      color: red!important;
-      background-color: gray;
-    }
-    .optionB{
-      background-color: tomato;
-    }
-    .optionB .card-footer{
-      background-color: royalblue;
-    }
-    .optionB .card-body{
-      background-color: hotpink;
-    }
-    .optionB input{
-      background-color: khaki;
-    }
-    .optionB h4{
-      color: peru;
-    }
+/* Option B */
+.optionB{
+  background-color: #F3FFDD !important;
+
+}
+.optionB nav{
+  background-color: #168BFF!important;
+}
+.optionB nav a{
+  color: black!important;
+  font-weight: bold;
+}
+.optionB .list-unstyled a{
+  color:#168BFF;
+}
+.optionB h5{
+  background-color:#FFD516;
+}
+.optionB .btn-primary{
+  background-color: #168BFF!important;
+  border-color:#168BFF;
+}
+.optionB h1{
+  color:#168EFF;
+}
+.optionB input{
+  background-color:#F5F5F5!important;
+}
+.optionB .card-footer{
+background-color:#FFD516!important;
+}
+.optionB .card{
+  background-color:#F5F5F5!important;
+  border: 1px solid #FFD516;
+}
+
+/* Option C */
+.optionC{
+  background-color:#FFFF1D!important;
+  color: black;
+}
+.optionC nav{
+  background-color: red!important;
+}
+.optionC nav a{
+  color: black!important;
+  font-weight: bold;
+}
+.optionC .list-unstyled a{
+  color:black;
+}
+.optionC h5{
+  background-color:#84FF1D;
+}
+.optionC .btn-primary{
+  background-color: #84FF1D!important;
+  border-color:#84FF1D;
+}
+.optionC h1{
+  color:black;
+}
+.optionC input{
+  background-color:#F5F5F5!important;
+}
+.optionC .card-footer{
+background-color:yellow!important;
+}
+.optionC .card{
+  background-color:#F5F5F5!important;
+}

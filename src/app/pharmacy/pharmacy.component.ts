@@ -12,7 +12,7 @@ export class PharmacyComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  this.optionValue = {"optionA":true, "optionB":false, "optionC":false}
+  this.optionValue = {"optionA":false, "optionB":true, "optionC":false}
   }
 
   public GetOption(){

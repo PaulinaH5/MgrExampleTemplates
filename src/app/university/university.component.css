@@ -1,13 +1,13 @@
 body {
     padding-top: 54px;
   }
-  
+
   @media (min-width: 992px) {
     body {
       padding-top: 56px;
     }
   }
-  
+
   .bg-image-full {
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -54,31 +54,63 @@ body {
   margin: 0px 11px;
 }
 
+/* Option A */
+.optionA{
+  background-color: #F3F3F3 !important;
+}
+.optionA nav{
+  background-color: #003896!important;
+}
+.optionA nav a{
+  color: #D6D6D6!important;
+}
+.optionA .btn {
+  background-color:#003896;
+  border-color:#003896;
+  color:white;
+}
+.optionA h1{
+  color:#003896;
+}
+.optionA h2{
+  color:#003896;
+}
+
+/* Option B */
+.optionB{
+  background-color: #FCBD30 !important;
+  color: #003896!important
+}
 .optionB nav{
+  background-color: #003896!important;
+}
+.optionB h2{
+  color:#003896;
+}
+.optionB h1{
+  color:#003896;
+}
+
+/* Option C */
+.optionC{
+  background-color: #F5A3FF !important;
+  color: #003896!important
+}
+.optionC nav{
   background-color: white!important;
 }
-.optionB nav a{
+.optionC nav a{
   color: red!important;
 }
-.optionB .jtron{
-  color: red!important;
-  background-color: gray;
-}
-.optionB{
-  background-color: tomato;
-}
-.optionB .card-footer{
+.optionC .card-footer{
   background-color: royalblue;
 }
-.optionB .card-body{
-  background-color: hotpink;
+.optionC .card-body{
+  background-color: #87D2FA;
 }
-.optionB .card-text{
+.optionC .card-text{
   color:palegreen;
 }
-.optionB input{
-  background-color: khaki;
-}
-.optionB h4{
+.optionC h2{
   color: peru;
 }
